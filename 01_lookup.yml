@@ -6,6 +6,6 @@
      environment: "{{ lookup('file', 'file.txt') }}"
 
   tasks:
-    - name: Debug Write File Content
-      ansible.builtin.debug:
-        msg: "{{ environment }}"
+  - name: Debug Write File Content
+    ansible.builtin.debug:
+    msg: "{{ environment }}"
