@@ -12,5 +12,5 @@
 
   - name: Add line in file
     ansible.builtin.lineinfile:
-      path: /root/testfile.txt
-      line: Ansible was here...
+        path: /root/testfile.txt
+        line: Ansible was here...
