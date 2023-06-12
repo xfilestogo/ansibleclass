@@ -4,8 +4,13 @@
   become: true
 
   tasks:
-- name: Create file
-  ansible.builtin.file:
-      path: /root/testfile.txt
-      state: touch
-  mode: '0755'
+  - name: Create file
+    ansible.builtin.file:
+        path: /root/testfile.txt
+        state: touch
+    mode: '0755'
+  
+  - name: Add line in file
+    lineinfile:ansible.builtin.lineinfile:
+        path: /root/testfile.txt
+        line: Ansible was here...
