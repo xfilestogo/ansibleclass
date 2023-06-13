@@ -3,7 +3,7 @@
   hosts: localhost
   connection: local
   vars:
-    user: write your username here
+    user: amdc
   tasks:
     - name: Create resource group
       azure.azcollection.azure_rm_resourcegroup:
