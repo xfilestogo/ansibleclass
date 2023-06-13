@@ -3,7 +3,7 @@
   hosts: linuxservers
 
   vars:
-     environment: "{{ lookup('file', 'file.txt') }}"
+    environment: "{{ lookup('file', 'file.txt') }}"
 
   tasks:
   - name: Debug Write File Content
