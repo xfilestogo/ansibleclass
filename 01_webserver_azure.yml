@@ -1,6 +1,6 @@
 ---
 - name: Configure Webserver
-  hosts: tag_solution_webserver_jesbe
+  hosts: tag_solution_webserver_amdc
   become: true
   vars:
     websiteheader: "Ansible Created Website"
