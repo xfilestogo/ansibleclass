@@ -13,10 +13,10 @@
 
     - name: Create user
       community.windows.win_domain_user:
-        name: amdc
-        firstname: Allan
-        surname: Christensen
-        password: MonkeyPoo42!
+        name: basim
+        firstname: Bart
+        surname: Simpson
+        password: P@ssw0rd!
         state: present
         groups:
         - corp
