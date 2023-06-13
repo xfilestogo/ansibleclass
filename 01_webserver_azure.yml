@@ -3,8 +3,8 @@
   hosts: tag_solution_webserver_jesbe
   become: true
   vars:
-    websiteheader: "Ansible Playbook"
-    websiteauthor: "Jesper Berth"
+    websiteheader: "Ansible Created Website"
+    websiteauthor: "Allan Chr"
 
   tasks:
     - name: Install Apache
